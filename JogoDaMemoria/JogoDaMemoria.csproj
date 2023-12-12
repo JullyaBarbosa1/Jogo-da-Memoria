@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{183329AE-5DF8-4DC9-BBA3-2A34228BEBA1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>JogoDaMemoria</RootNamespace>
+    <AssemblyName>JogoDaMemoria</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form02.Designer.cs">
+      <DependentUpon>Form02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\..\Desktop\Form6.cs">
+      <SubType>Form</SubType>
+      <Link>Form6.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\Desktop\Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+      <Link>Form6.Designer.cs</Link>
+    </Compile>
+    <Compile Include="Form6Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6Login.Designer.cs">
+      <DependentUpon>Form6Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDisney06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDisney06.Designer.cs">
+      <DependentUpon>FormDisney06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin02.Designer.cs">
+      <DependentUpon>FormLogin02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNovoUtilizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNovoUtilizador.Designer.cs">
+      <DependentUpon>FormNovoUtilizador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNovoUtilizador02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNovoUtilizador02.Designer.cs">
+      <DependentUpon>FormNovoUtilizador02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNovoUtilizador6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNovoUtilizador6.Designer.cs">
+      <DependentUpon>FormNovoUtilizador6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTema02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTema02.Designer.cs">
+      <DependentUpon>FormTema02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTema02Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTema02Login.Designer.cs">
+      <DependentUpon>FormTema02Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTemas05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTemas05.Designer.cs">
+      <DependentUpon>FormTemas05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form02.resx">
+      <DependentUpon>Form02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\Desktop\Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+      <Link>Form6.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6Login.resx">
+      <DependentUpon>Form6Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin02.resx">
+      <DependentUpon>FormLogin02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNovoUtilizador.resx">
+      <DependentUpon>FormNovoUtilizador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNovoUtilizador02.resx">
+      <DependentUpon>FormNovoUtilizador02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNovoUtilizador6.resx">
+      <DependentUpon>FormNovoUtilizador6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTema02.resx">
+      <DependentUpon>FormTema02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTema02Login.resx">
+      <DependentUpon>FormTema02Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTemas05.resx">
+      <DependentUpon>FormTemas05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\music-sound-png.webp" />
+    <None Include="Resources\SOM_JOGOMEMORIA.WAV.wav.crdownload" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview %282%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design_sem_nome-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SOM_JOGOMEMORIA %28online-audio-converter.com%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconVolumeOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music-sound-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disney.costas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview %2813%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
